@@ -1,11 +1,6 @@
-# Phân Tích Dữ Liệu Khách Hàng Viễn Thông (Telco Customer Churn)
+# 1.Phân Tích Dữ Liệu Khách Hàng Viễn Thông (Telco Customer Churn)
 
 Dự án phân tích và dự đoán hành vi rời bỏ của khách hàng (Customer Churn) trong lĩnh vực viễn thông, từ đó đưa ra các giải pháp giữ chân khách hàng hiệu quả. 
-
-## 1. Thành Viên Nhóm
-*   **Trương Thế Minh Khánh** (23520727): Làm sạch dữ liệu, Kỹ thuật đặc trưng (Feature Engineering), Mã hoá và chuẩn hoá dữ liệu, Chuẩn bị dữ liệu đầu vào.
-*   **Trần Anh Duy** (23520389): Phân tích khám phá dữ liệu (EDA), phân tích các yếu tố ảnh hưởng, trực quan hoá dữ liệu và rút ra insight.
-*   **Nguyễn Văn Tiên** (23521580): Huấn luyện mô hình, đánh giá, so sánh và tối ưu hoá mô hình.
 
 ## 2. Giới Thiệu Bộ Dữ Liệu
 *   **Tên dataset**: `WA_Fn-UseC_-Telco-Customer-Churn.csv` (nguồn: Kaggle).
