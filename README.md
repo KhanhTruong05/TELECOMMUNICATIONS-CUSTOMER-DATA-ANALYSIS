@@ -31,5 +31,13 @@ Dự án phân tích và dự đoán hành vi rời bỏ của khách hàng (Cus
 *   **Fine-Tuning**: Tối ưu hoá siêu tham số bằng GridSearchCV. Sau tinh chỉnh, mô hình Random Forest cho thấy sự vượt trội khi Recall tăng vọt từ 0.4759 lên 0.7380 và ROC-AUC đạt 0.8408.
 *   **Threshold Moving (Tối ưu ngưỡng)**: Do đặc thù rủi ro chi phí (bỏ sót khách hàng rời bỏ gây thiệt hại cao hơn chăm sóc nhầm), nhóm đã điều chỉnh ngưỡng ra quyết định (threshold) của Random Forest xuống mức `0.4`. Tại ngưỡng này, mô hình phát hiện được tới **83%** khách hàng có nguy cơ rời bỏ (Recall = 0.8289) với mức Accuracy ổn định (0.7346).
 
+  ### 3.4. Trực Quan Hoá Bằng Power BI
+*   **Xây dựng Dashboard**: Dự án đã phát triển thành công Dashboard trên Power BI (file `Dashboard Analysis.pbix`).
+*   **Mục đích**: Giúp trực quan hóa dữ liệu một cách sinh động, tổng hợp các chỉ số quan trọng. Từ đó hỗ trợ các nhà quản lý theo dõi và phát hiện sớm những nhóm khách hàng có nguy cơ rời bỏ cao (như nhóm khách hàng cao tuổi, khách hàng dùng Fiber Optic nhưng ít dịch vụ đi kèm).
+<img width="1313" height="791" alt="image" src="https://github.com/user-attachments/assets/7f86c524-49cc-4f1e-b3f3-c2c799196a60" />
+<img width="1317" height="743" alt="image" src="https://github.com/user-attachments/assets/47309bd9-2667-4b51-bc9b-cba012ad51d8" />
+<img width="1311" height="786" alt="image" src="https://github.com/user-attachments/assets/978daf06-3c78-44ad-b33d-ddc5a9418cb3" />
+<img width="1315" height="788" alt="image" src="https://github.com/user-attachments/assets/d9fec4ca-d1d5-4d37-97b6-a7f75a713167" />
+
 ## 4. Kết Luận
 Bằng việc kết hợp Feature Engineering, giảm chiều dữ liệu và tìm kiếm Threshold tối ưu, dự án đã xây dựng thành công một mô hình Random Forest nhạy bén trong việc đánh hơi rủi ro khách hàng rời đi. Doanh nghiệp có thể dựa vào mô hình này để thiết kế các chiến dịch giữ chân khách hàng mục tiêu, cụ thể như tập trung cung cấp Tech Support cho người cao tuổi và xây dựng gói hệ sinh thái dịch vụ đi kèm cho người dùng cáp quang.
